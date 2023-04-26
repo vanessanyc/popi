@@ -1,18 +1,12 @@
 .album-dashboard {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
+    
   }
   
   .left-side {
-    flex: 1;
-    margin-right: 20px;
+  
   }
   
   .right-side {
-    flex: 1;
-    margin-left: 20px;
+  
   }
   
