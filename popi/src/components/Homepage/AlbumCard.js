@@ -13,7 +13,7 @@ const AlbumCard = () => {
 
   return (
     <div className="album-card">
-      <img src={album.coverImageUrl} alt="Album Cover" />
+      <img src={album.coverImageUrl} width="275" height="275" alt="Album Cover" />
       <div className="album-name">
         <p>{album.name}</p>
       </div>

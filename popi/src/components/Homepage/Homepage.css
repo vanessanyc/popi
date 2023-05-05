@@ -6,7 +6,7 @@
 
 .album-grid {
     display: grid;
-    grid-template-columns: 24rem 24rem 24rem;
+    grid-template-columns: 22rem 22rem 22rem;
     grid-gap: 1rem;
     justify-content: center;
 }
