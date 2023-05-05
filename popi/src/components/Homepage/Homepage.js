@@ -1,9 +1,27 @@
 import React from 'react';
-import AlbumGrid, { AlbumCard } from './AlbumCard';
+import AlbumCard from './AlbumCard';
+import './HomePage.css';
 
-const Homepage = ({ review }) => {
+const Homepage = () => {
+  const albums = [
+    {
+      coverImageUrl: 'https://example.com/cover1.jpg',
+      name: 'Album 1',
+      artist: 'Artist 1',
+    },
+    {
+      coverImageUrl: 'https://example.com/cover2.jpg',
+      name: 'Album 2',
+      artist: 'Artist 2',
+    },
+  ];
+
   return (
-    
+    <div className="home-page">
+      {albums.map((album, index) => (
+        <AlbumCard key={index} album={album} />
+      ))}
+    </div>
   );
 };
 

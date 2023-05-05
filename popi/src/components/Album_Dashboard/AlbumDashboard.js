@@ -1,7 +1,8 @@
 import React from 'react';
-import AlbumInfo from './AlbumInfo';
+//import AlbumInfo from './AlbumInfo';
 import ReviewCard from './ReviewCard';
 import ReviewForm from './ReviewForm';
+import AlbumCard from './AlbumCard';
 import './AlbumDashboard.css';
 
 const AlbumDashboard = () => {
@@ -37,7 +38,7 @@ const AlbumDashboard = () => {
   return (
     <div className="album-dashboard">
       <div className="left-side">
-        <AlbumInfo album={album} />
+        <AlbumCard album={album} />
       </div>
       <div className="right-side">
         <div className="reviews-container">

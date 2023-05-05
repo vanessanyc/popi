@@ -5,7 +5,7 @@ import AlbumDashboard from './components/AlbumDashboard/AlbumDashboard';
 function App() {
   return (
     <div className="App">
-      <AlbumDashboard />
+      <Homepage />
     </div>
   );
 }
