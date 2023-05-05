@@ -6,15 +6,6 @@ import AlbumCard from './AlbumCard';
 import './AlbumDashboard.css';
 
 const AlbumDashboard = () => {
-  // Static album data
-  const album = {
-    coverImageUrl: 'https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg',
-    name: 'Album Name',
-    artist: 'Artist Name',
-    releaseDate: '2023-01-01',
-    genres: ['Pop', 'Rock'],
-    previewUrl: '',
-  };
 
   // Static reviews data
   const reviews = [

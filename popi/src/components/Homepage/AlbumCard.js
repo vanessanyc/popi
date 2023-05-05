@@ -1,7 +1,16 @@
 import React from 'react';
-import album from './AlbumInfo';
 
-const AlbumCard = ({ album }) => {
+const AlbumCard = () => {
+  // Static album data
+  const album = {
+    coverImageUrl: 'https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg',
+    name: 'Album Name',
+    artist: 'Artist Name',
+    releaseDate: '2023-01-01',
+    genres: ['Pop', 'Rock'],
+    previewUrl: '',
+  };
+
   return (
     <div className="album-card">
       <img src={album.coverImageUrl} alt="Album Cover" />
