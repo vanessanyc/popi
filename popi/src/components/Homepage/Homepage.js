@@ -37,10 +37,17 @@ const Homepage = () => {
   ];
 
   return (
-    <div className="home-page">
-      {albums.map((album, index) => (
-        <AlbumCard key={index} album={album} />
-      ))}
+    <div>
+        <h1>HOMEPAGE</h1>
+        <div className="home-page">
+            <div className="album-grid2">
+                <div className="album-grid">
+                {albums.map((album, index) => (
+                    <AlbumCard key={index} album={album} />
+                ))}
+                </div>
+            </div>
+        </div>
     </div>
   );
 };

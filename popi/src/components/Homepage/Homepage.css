@@ -1,7 +1,12 @@
 .home-page {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
-  }
+    justify-content: center;
+    align-items: center;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: 24rem 24rem 24rem;
+    grid-gap: 1rem;
+    justify-content: center;
+}
