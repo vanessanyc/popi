@@ -1,6 +1,6 @@
 import React from 'react';
 import AlbumCard from './AlbumCard';
-import './HomePage.css';
+import './Homepage.css';
 
 const Homepage = () => {
   const albums = [

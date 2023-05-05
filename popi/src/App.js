@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import AlbumDashboard from './components/AlbumDashboard/AlbumDashboard';
+import Homepage from './components/Homepage/Homepage';
 
 function App() {
   return (

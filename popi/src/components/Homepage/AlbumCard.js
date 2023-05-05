@@ -1,5 +1,5 @@
 import React from 'react';
-import './AlbumInfo.css';
+import album from './AlbumInfo';
 
 const AlbumCard = ({ album }) => {
   return (
