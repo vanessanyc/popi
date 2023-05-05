@@ -14,6 +14,26 @@ const Homepage = () => {
       name: 'Album 2',
       artist: 'Artist 2',
     },
+    {
+        coverImageUrl: 'https://example.com/cover2.jpg',
+        name: 'Album 2',
+        artist: 'Artist 2',
+    },
+    {
+        coverImageUrl: 'https://example.com/cover1.jpg',
+        name: 'Album 1',
+        artist: 'Artist 1',
+    },
+    {
+        coverImageUrl: 'https://example.com/cover2.jpg',
+        name: 'Album 2',
+        artist: 'Artist 2',
+    },
+    {
+        coverImageUrl: 'https://example.com/cover2.jpg',
+        name: 'Album 2',
+        artist: 'Artist 2',
+    }
   ];
 
   return (
