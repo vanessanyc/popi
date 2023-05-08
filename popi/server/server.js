@@ -14,10 +14,5 @@ app.get('/check', (req, res) => {
       // This takes the raw response from the fetch promise and parses it to json data format.
       .then(response => response.json())
       // And then takes THAT promise and does things with the json data.
-      .then(data => {
-        res.send(`
-          <h1>New Deck ID: '${data.album.url}'</h>
-        `);
-      })
   });
 app.listen(5000, () => {console.log("Server started on port 5000")})
