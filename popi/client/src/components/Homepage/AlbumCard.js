@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import AlbumDashboard from '../Album_Dashboard/AlbumDashboard';
 
 const AlbumCard = (props) => {
 
   const [albumImg, setAlbumImg] = useState([]);
-  const navigate = useNavigate()
-
-  let navigateToDashboard = () => {
-    navigate("/AlbumDashboard")
+  let navigate = useNavigate();
+  const navigateToDashboard = () => {
+    let path = `/AlbumDashboard`;
+    navigate(path);    
   }
 
   return (
