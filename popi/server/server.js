@@ -15,4 +15,9 @@ app.get('/check', (req, res) => {
       .then(response => response.json())
       // And then takes THAT promise and does things with the json data.
   });
+app.get('/AlbumDashboard', (req, res) => {
+    res.send("Hey");
+    // This takes the raw response from the fetch promise and parses it to json data format.
+    // And then takes THAT promise and does things with the json data.
+});
 app.listen(5000, () => {console.log("Server started on port 5000")})

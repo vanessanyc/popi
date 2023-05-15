@@ -1,5 +1,5 @@
 import React from 'react';
-//import AlbumInfo from './AlbumInfo';
+import AlbumInfo from './AlbumInfo';
 import ReviewCard from './ReviewCard';
 import ReviewForm from './ReviewForm';
 import AlbumCard from './AlbumCard';

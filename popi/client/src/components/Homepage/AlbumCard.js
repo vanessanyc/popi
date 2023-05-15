@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate, Router, Route, Routes, Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
+import AlbumDashboard from '../Album_Dashboard/AlbumDashboard';
 
 const AlbumCard = (props) => {
 
@@ -19,6 +20,9 @@ const AlbumCard = (props) => {
       <div className="artist-name">
         <p>{props.artistName}</p>
       </div>
+      {/* <Routes>
+        <Route path="/AlbumDashboard" element={<AlbumDashboard/>}/>
+      </Routes> */}
     </div>
   );
 };
